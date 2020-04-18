@@ -11,10 +11,8 @@ Use browser to open the below url
 
 ### http://localhost:3000/
 
-### To initialize the collection of fields like in case of "Edit", to initialize the field with some data that usually happened in edit case see the below use case
+To initialize the collection of fields like in case of "Edit" to pre-populate the fields with data see the below use case
 
-<Form
-  onSubmit={this.onSubmit}
   mutators={{
       ...arrayMutators
   }}
@@ -22,4 +20,4 @@ Use browser to open the below url
       student_info: [{"first_name":"xyz", "last_name":"abc"}]
   }}
   
-  add the initialValues with collection field name "student_info" and put the object data to pre-populate the neccessary fields.
+  add the initialValues with collection field name "student_info" and put the object data with field name used to pre-populate in form.
