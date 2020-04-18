@@ -21,3 +21,6 @@ To initialize the collection of fields like in case of "Edit" to pre-populate th
   }}
   
   add the initialValues with collection field name "student_info" and put the object data with field name used to pre-populate in form.
+  
+## See the running demo
+https://codesandbox.io/s/react-field-arrays-mz6ce?file=/package.json
